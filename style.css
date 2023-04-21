@@ -1,0 +1,30 @@
+.bg {
+    background-color: #F55887;
+    color: #000080;
+}
+
+.dir {
+    flex-direction: column;
+}
+
+.margin {
+    margin: 20px 0;
+}
+
+.skills-svg svg {
+    margin: 0 10px;
+}
+
+@media(min-width:576px) {
+    .dir1 {
+        flex-direction: row;
+    }
+
+    .vertical {
+        border-right: 4px solid #000080;
+    }
+
+    .margin1 {
+        margin: 40px 0;
+    }
+}
